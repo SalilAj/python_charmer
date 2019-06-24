@@ -20,4 +20,17 @@ Python code is written without brackets. But on the downside, indentation matter
 Extensibility:
 You can link the python interpreter to an application written in C. (!READ UP ON THIS!)
 
+Encoding:
+Python source files are always treated as UTF-8 encoded. The standard Library uses ANSCII encoding for identifiers.
+
+* in the python interpreter the last shown result is stored in _ . Keep _ read only. Dont re-assign it. you'll lose the magic ability
+
+* Strings in python are immutable. If you try to reassign the variable with a different value it will give an error
+
+Data Strucures in Python:
+Number
+String
+List
+Dictionaries
+
 
