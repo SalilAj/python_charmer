@@ -33,4 +33,26 @@ String
 List
 Dictionaries
 
+** range function: range(5) or range(5,10)
+** pass function: used as a placeholder for a function to do nothing and only used for syntactical reasons
+
+Function calls are all call by value..Where the value is the reference of the object.
+
+Note: Diffrence between a function, Method and procedure.
+Function: block of code that does some functionality and returns a value
+Method: A function of an Object
+Procedure: block of code that does some functionality only
+
+Python doesnot have procedures..all procedures are function as all 'non-return' procedures retrun a value..A value called "None"
+
+**DEFAULT ARGUMENT VALUES
+The default values are evaluated at the point of function definition in the defining scope (READ ON THIS!)
+
+i = 5
+def f(arg=i):
+    print(arg)
+i = 6
+f()
+
+will print 5.
 
